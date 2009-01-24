@@ -1,1 +1,3 @@
 GMYTH_BACKEND_INFO_TYPE GMythBackendInfo GObject Net::MythTV::BackendInfo
+GMYTH_URI_TYPE          GMythURI         GObject Net::MythTV::URI
+GMYTH_SOCKET_TYPE       GMythSocket      GObject Net::MythTV::Socket
