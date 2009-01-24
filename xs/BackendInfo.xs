@@ -73,9 +73,9 @@ const gchar *
 gmyth_backend_info_get_db_name (backend_info)
 		GMythBackendInfo *backend_info
 
-gint
-gmyth_backend_info_get_db_port (backend_info)
-		GMythBackendInfo *backend_info
+#gint
+#gmyth_backend_info_get_db_port (backend_info)
+#		GMythBackendInfo *backend_info
 
 gint
 gmyth_backend_info_get_port (backend_info)
