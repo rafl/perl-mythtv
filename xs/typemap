@@ -1,0 +1,17 @@
+TYPEMAP
+
+GString *   T_GSTRING
+
+INPUT
+
+T_GSTRING
+	{
+		STRLEN len;
+		char *str =  SvPV ($arg, len);
+		$var = g_string_new_len (str, len);
+	}
+
+OUTPUT
+
+T_GSTRING
+	$arg = newSVpvn (($var)->str, ($var)->len);
