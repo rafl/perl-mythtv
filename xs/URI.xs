@@ -1,6 +1,6 @@
 #include "perlmyth.h"
 
-MODULE = Net::MythTV::URI  PACKAGE = Net::MythTV::URI  PREFIX = gmyth_uri_
+MODULE = MythTV::URI  PACKAGE = MythTV::URI  PREFIX = gmyth_uri_
 
 GMythURI *
 gmyth_uri_new (class)

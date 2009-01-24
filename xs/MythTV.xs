@@ -1,6 +1,6 @@
 #include "perlmyth.h"
 
-MODULE = Net::MythTV  PACKAGE = Net::MythTV
+MODULE = MythTV  PACKAGE = MythTV
 
 BOOT:
 #include "register.xsh"

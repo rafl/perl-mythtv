@@ -1,6 +1,6 @@
 #include "perlmyth.h"
 
-MODULE = Net::MythTV::ProgramInfo  PACKAGE = Net::MythTV::ProgramInfo  PREFIX = gmyth_program_info_
+MODULE = MythTV::ProgramInfo  PACKAGE = MythTV::ProgramInfo  PREFIX = gmyth_program_info_
 
 GMythProgramInfo *
 gmyth_program_info_new (class)

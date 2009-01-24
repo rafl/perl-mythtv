@@ -1,6 +1,6 @@
 #include "perlmyth.h"
 
-MODULE = Net::MythTV::BackendInfo  PACKAGE = Net::MythTV::BackendInfo  PREFIX = gmyth_backend_info_
+MODULE = MythTV::BackendInfo  PACKAGE = MythTV::BackendInfo  PREFIX = gmyth_backend_info_
 
 GMythBackendInfo *
 gmyth_backend_info_new (class)

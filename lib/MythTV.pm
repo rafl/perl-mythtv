@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-package Net::MythTV;
+package MythTV;
 
 use Glib;
 use parent qw/DynaLoader/;

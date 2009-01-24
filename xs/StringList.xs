@@ -1,6 +1,6 @@
 #include "perlmyth.h"
 
-MODULE = Net::MythTV::StringList  PACKAGE = Net::MythTV::StringList  PREFIX = gmyth_string_list_
+MODULE = MythTV::StringList  PACKAGE = MythTV::StringList  PREFIX = gmyth_string_list_
 
 GMythStringList *
 gmyth_string_list_new (class)

@@ -1,6 +1,6 @@
 #include "perlmyth.h"
 
-MODULE = Net::MythTV::Socket  PACKAGE = Net::MythTV::Socket  PREFIX = gmyth_socket_
+MODULE = MythTV::Socket  PACKAGE = MythTV::Socket  PREFIX = gmyth_socket_
 
 GMythSocket *
 gmyth_socket_new (class)

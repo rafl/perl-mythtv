@@ -13,7 +13,7 @@ channel_info_to_hashref (GMythChannelInfo *channel)
 	return newRV_noinc ((SV *)hash);
 }
 
-MODULE = Net::MythTV::EPG  PACKAGE = Net::MythTV::EPG  PREFIX = gmyth_epg_
+MODULE = MythTV::EPG  PACKAGE = MythTV::EPG  PREFIX = gmyth_epg_
 
 GMythEPG *
 gmyth_epg_new (class)

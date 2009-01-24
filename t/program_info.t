@@ -2,10 +2,10 @@ use strict;
 use warnings;
 use Test::More tests => 8;
 
-use Net::MythTV;
+use MythTV;
 
-my $prog = Net::MythTV::ProgramInfo->new;
-isa_ok($prog, 'Net::MythTV::ProgramInfo');
+my $prog = MythTV::ProgramInfo->new;
+isa_ok($prog, 'MythTV::ProgramInfo');
 
 $prog->set_len_mins(42);
 is($prog->get_len_mins, 42, 'int accessors');
