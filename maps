@@ -2,3 +2,5 @@ GMYTH_BACKEND_INFO_TYPE GMythBackendInfo GObject Net::MythTV::BackendInfo
 GMYTH_URI_TYPE          GMythURI         GObject Net::MythTV::URI
 GMYTH_SOCKET_TYPE       GMythSocket      GObject Net::MythTV::Socket
 GMYTH_STRING_LIST_TYPE  GMythStringList  GObject Net::MythTV::StringList
+GMYTH_EPG_TYPE          GMythEPG         GObject Net::MythTV::EPG
+GMYTH_PROGRAM_INFO_TYPE GMythProgramInfo GObject Net::MythTV::ProgramInfo
